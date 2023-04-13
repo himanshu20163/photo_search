@@ -30,7 +30,7 @@ function App() {
       <button onClick={ ()=>{
         console.log("Submitting search query...");
         result_api(value)
-      }}>Submit</button>
+      }}>Search</button>
       <div className='subcontainer' style={{display:"flex" , flexWrap:"wrap",justifyContent:"center"}}>
       {fetchdata.map((e, index)=>{
         return(
